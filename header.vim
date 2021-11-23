@@ -131,7 +131,7 @@ function! s:update()
 	return 1
 endfunction
 
-function! s:baslik()
+function! s:header()
 	if s:update()
 		call s:insert()
 	endif
